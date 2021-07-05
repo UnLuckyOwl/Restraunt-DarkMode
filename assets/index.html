@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Box Icon Link -->
+        <link
+            href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>The G-Free Bakery</title>
+
+        <link
+            rel="icon"
+            href="https://img.icons8.com/fluent/48/000000/no-gluten.png"
+            type="image/x-icon"
+        />
+    </head>
+    <body>
+        <!-- Scroll Top -->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-chevron-up scrolltop__icon"></i>
+        </a>
+        <!-- Header -->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">The G-Free Bakery</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link"
+                                >Home</a
+                            >
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#menu" class="nav__link">Menu</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+
+                        <li>
+                            <i
+                                class="bx bx-moon change-theme"
+                                id="theme-button"
+                            ></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!-- Home -->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Fully Gluten Free Kitchen!</h1>
+                        <h2 class="home__subtitle">
+                            Try the best Gluten Free <br />baked goods in the
+                            region!
+                        </h2>
+                        <a href="#menu" class="button">View Menu</a>
+                    </div>
+                    <img src="./img/gfree.jpg" alt="" class="home__img" />
+                </div>
+            </section>
+
+            <section class="social__media" id="socialMedia">
+                <div>
+                    <a href="#" class="home__social"
+                        ><i class="bx bxl-facebook-circle"></i
+                    ></a>
+                    <a href="#" class="home__social"
+                        ><i class="bx bxl-instagram-alt"></i
+                    ></a>
+                    <a href="#" class="home__social"
+                        ><i class="bx bxl-twitter"></i
+                    ></a>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section class="about section bd-container" id="about">
+                <div class="about__container bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about-initial"
+                            >About</span
+                        >
+                        <h2 class="section-title">
+                            Missing the taste of regular bread? Try Ours!
+                        </h2>
+                        <p class="about__description">
+                            We bake the best allergy friendly bread in the
+                            region and we stand by that.
+                        </p>
+                        <!-- <a href="#" class="button">Explore Our History</a> -->
+                    </div>
+
+                    <img src="./img/bread2.jpg" alt="" class="about__img" />
+                </div>
+            </section>
+
+            <!-- Services -->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle about-initial">Offering</span>
+                <h2 class="section-title">Our amazing services.</h2>
+
+                <div class="services__container bd-grid">
+                    <div class="services__content">
+                        <img
+                            class="services__img"
+                            src="https://img.icons8.com/ios-filled/50/000000/meal.png"
+                        />
+                        <h3 class="services__title">Excellent Baked Goods</h3>
+                        <p class="services__description">
+                            We offer an assortment of baked goods such as bread
+                            loafs, donuts, cakes, pasta, and much more!
+                        </p>
+                    </div>
+                    <div class="services__content">
+                        <img
+                            class="services__img"
+                            src="./img/gluten-free-svgrepo-com.svg"
+                            alt=""
+                        />
+                        <h3 class="services__title">Gluten Free</h3>
+                        <p class="services__description">
+                            We pride ourselves for being a fully gluten free
+                            kitchen, meaning everthing we sell is gluten free!
+                        </p>
+                    </div>
+                    <div class="services__content">
+                        <img
+                            class="services__img"
+                            src="./img/delivery-svgrepo-com.svg"
+                            alt=""
+                        />
+                        <h3 class="services__title">Delivery</h3>
+                        <p class="services__description">
+                            We offer mobile order pick-ups, local delivery, and
+                            nation-wide delivery
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Menu -->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Menu</span>
+                <h2 class="section-title">Our Baked Goods</h2>
+
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img class="menu__img" src="./img/donut.jpg" alt="" />
+                        <h3 class="menu__name">Assortment of Donuts</h3>
+                        <span class="menu__detail">Glazed - Fresh Daily </span>
+                        <br />
+                        <span class="menu__price"
+                            >$1.50 - $3.00 <br />
+                            Each</span
+                        >
+                        <a href="#" class="button menu__button"
+                            ><img
+                                src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart--v2.png"
+                            />
+                        </a>
+                    </div>
+                    <div class="menu__content">
+                        <img class="menu__img" src="./img/cake.jpg" alt="" />
+                        <h3 class="menu__name">Cake</h3>
+                        <span class="menu__detail">Double Chocolate Cake</span>
+                        <br />
+                        <span class="menu__price">$12.00</span>
+                        <a href="#" class="button menu__button"
+                            ><img
+                                src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart--v2.png"
+                            />
+                        </a>
+                    </div>
+                    <div class="menu__content">
+                        <img class="menu__img" src="./img/cursant.jpg" alt="" />
+                        <h3 class="menu__name">Cursants</h3>
+                        <span class="menu__detail"
+                            >Buttery Deliciousness - Fresh Daily</span
+                        >
+                        <br />
+                        <span class="menu__price">$2.50 Each</span>
+
+                        <a href="#" class="button menu__button"
+                            ><img
+                                src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart--v2.png"
+                            />
+                        </a>
+                    </div>
+                    <div class="menu__content">
+                        <img class="menu__img" src="./img/bread.jpg" alt="" />
+                        <h3 class="menu__name">Loaf of Bread</h3>
+                        <span class="menu__detail">Fresh Daily</span>
+                        <br />
+                        <span class="menu__price">$6.00</span>
+                        <a href="#" class="button menu__button"
+                            ><img
+                                src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart--v2.png"
+                            />
+                        </a>
+                    </div>
+                    <div class="menu__content">
+                        <img class="menu__img" src="./img/pasta.jpg" alt="" />
+                        <h3 class="menu__name">1/2 Pound of Pasta</h3>
+                        <span class="menu__detail">Made from scratch</span>
+                        <br />
+                        <span class="menu__price">$12.00</span>
+                        <a href="#" class="button menu__button"
+                            ><img
+                                src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart--v2.png"
+                            />
+                        </a>
+                    </div>
+                    <div class="menu__content">
+                        <img class="menu__img" src="./img/muffin.jpg" alt="" />
+                        <h3 class="menu__name">Assortment of Muffins</h3>
+                        <span class="menu__detail">Fresh Daily</span>
+                        <br />
+                        <span class="menu__price">$1.00 Each</span>
+                        <a href="#" class="button menu__button"
+                            ><img
+                                src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart--v2.png"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- App -->
+            <section class="app section bd-container">
+                <!-- <div class="app__container bd-grid"> -->
+                <div class="app__data">
+                    <span class="section-subtitle">App</span>
+                    <h2 class="section-title">App is Available HERE</h2>
+                    <p class="app__description">
+                        Download our app and be able to do mobile orders, view
+                        ingredients, and delivery!
+                    </p>
+                    <div class="app__stores">
+                        <a href="#"
+                            ><img
+                                class="app__img"
+                                src="https://img.icons8.com/nolan/128/ios-logo.png"
+                        /></a>
+                        <a href="#"
+                            ><img
+                                class="app__img"
+                                src="https://img.icons8.com/color/144/000000/android-os.png"
+                        /></a>
+                    </div>
+                </div>
+                <!-- <img src="" alt="" class="app__img" /> -->
+                <!-- </div> -->
+            </section>
+
+            <!-- Contact -->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container">
+                    <div class="contact__data">
+                        <span class="section-subtitle">Let's Talk</span>
+                        <h2 class="section-title">Contact Us</h2>
+                        <p class="contact__description">
+                            If you want to make an order above a dozen, please
+                            call ahead of time.
+                        </p>
+                    </div>
+                    <div class="contact__img">
+                        <img src="./img/bakeronphone.jpg" alt="" />
+                    </div>
+                    <div class="contact__button">
+                        <a href="#" class="button">Contact Us Now!</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">The G-Free Bakery</a>
+                    <span class="footer__description">Fresh Deliciousness</span>
+
+                    <div>
+                        <a href="#" class="footer__social"
+                            ><i class="bx bxl-facebook-circle"></i
+                        ></a>
+                        <a href="#" class="footer__social"
+                            ><i class="bx bxl-instagram-alt"></i
+                        ></a>
+                        <a href="#" class="footer__social"
+                            ><i class="bx bxl-twitter"></i
+                        ></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer__link">Fresh Daily</a>
+                        </li>
+                        <li><a href="#" class="footer__link">Delivery</a></li>
+                        <li>
+                            <a href="#" class="footer__link">Mobile Order</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link"
+                                >Veteran Discount</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Ingredients</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer__link">Donuts</a>
+                        </li>
+                        <li><a href="#" class="footer__link">Cake</a></li>
+                        <li>
+                            <a href="#" class="footer__link">Pasta</a>
+                        </li>
+                        <!-- <li>
+                            <a href="#" class="footer__link">Kitchen Details</a>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Locations</h3>
+                    <ul>
+                        <li>
+                            <a href="#" class="footer__link"
+                                >Denver, Colorado</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Kearney, MO</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Helena, Montana</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Destin, Florida</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">2021 Copyright. All Rights Reserved.</p>
+        </footer>
+
+        <!-- MAIN JS Link -->
+        <script src="./js/main.js"></script>
+        <!-- Scroll Reveal Link -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </body>
+</html>
